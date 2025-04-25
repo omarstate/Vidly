@@ -1,4 +1,5 @@
 const readline = require('readline');
+module.exports = askForNames;
 
 function askForNames() {
     const rl = readline.createInterface({
